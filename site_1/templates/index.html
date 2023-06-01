@@ -1,283 +1,219 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
     <title>Consultoria</title>
 </head>
-
 <body>
-    <header>
-        <nav class="navbar">
-            <h1><strong>LOGO</strong></h1>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">SOBRE</a></li>
-                <li><a href="#">BENEFÍCIOS</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">E-BOOKS</a></li>
-                <li><a href="#">CONTATOS</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    <div class="bg">
+        <header>
+            <a href="#" class="logo">LOGO</a>
+
+            <input type="checkbox" id="chk-toggle"/>
+            <label id="toggle" for="chk-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PRODUTOS</a></li>
+                    <li><a href="#">CONTATOS</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </ul>
+            </nav>
+        </header>
         <div class="homeText">
             <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, minus!</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, veniam.</p><br><br>
-            <button>
+            <button class="wpp">
                 <b>Whatsapp</b>
             </button>
         </div>
-        <div class="homeBackground">
-            <div class="home">
-                <div class="homeText">
-                    <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, minus!</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, veniam.</p><br><br>
-                    <button>
-                        <b>Whatsapp</b>
-                    </button>
+    </div>
+    <div class="aboutMe">
+        <div class="textAbout">
+            <h3>Quem sou eu?</h3><br>
+            <h2>Personal Trainer</h2><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laudantium maiores provident repellendus, sapiente voluptatem iure aut repellat? Laboriosam obcaecati, optio excepturi reprehenderit, pariatur sapiente consectetur, voluptate doloremque quaerat iusto commodi laborum eaque! At tempora aut totam dolorum sit maiores quis cumque aspernatur sapiente! Aliquam, quos optio. Atque possimus velit pariatur illo magni quaerat, cum exercitationem ipsum id rerum quas enim voluptates necessitatibus accusamus quibusdam repellendus voluptate sint repellat veritatis placeat et debitis? Recusandae repudiandae vitae tempora ad tempore cum excepturi officiis eum modi, nesciunt quidem quaerat, sit dolore voluptatum iste, omnis doloremque hic accusantium exercitationem assum.</p>
+        </div>
+        <div class="imgAbout">
+            <img src="img/img3.jpg">
+        </div>
+    </div>
+    <div class="score">
+        <ul class="textScore">
+            <li><a>78</a></li>
+            <li><a>Alunos Satisfeitos</a></li>
+        </ul>
+        <ul class="textScore">
+            <li><a>1000+</a></li>
+            <li><a>Treinos entregues</a></li>
+        </ul>
+        <ul class="textScore">
+            <li><a>182</a></li>
+            <li><a>Avaliações realizadas</a></li>
+        </ul>
+        <ul class="textScore">
+            <li><a>1000+</a></li>
+            <li><a>Horas de dedicação</a></li>
+        </ul>
+    </div> 
+    <div class="feedbackSup">
+        <h4>Feedback dos Alunos</h4>
+    </div>
+    
+        <div class="container">
+            <button class="arrow-left control" aria-label="Previous image">◀</button>
+            <button class="arrow-right control" aria-label="Next Image">▶</button>
+            <div class="gallery-wrapper">
+              <div class="gallery"> 
+                <div class="card">
+                    <div class="stars">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                    </div>
+                
+                    <div class="infos">
+                    <p class="date-time">2 day ago</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur.</p>
+                    </div>
+                
+                    <div class="author">
+                        — João
+                    </div>
                 </div>
+                <div class="card">
+                    <div class="stars">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                    </div>
+                
+                    <div class="infos">
+                    <p class="date-time">1 day ago</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur.</p>
+                    </div>
+                
+                    <div class="author">
+                        — João
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="stars">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="star">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                    </div>
+                
+                    <div class="infos">
+                    <p class="date-time">5 day ago</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur.</p>
+                    </div>
+                
+                    <div class="author">
+                        — João
+                    </div>
+                </div>    
+              </div>
             </div>
-            <div class="aboutMe">
-                <h3>Quem sou eu?</h3><br>
-                <h2>Personal Trainer</h2><br><br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laudantium maiores provident
-                    repellendus, sapiente voluptatem iure aut repellat? Laboriosam obcaecati, optio excepturi
-                    reprehenderit, pariatur sapiente consectetur, voluptate doloremque quaerat iusto commodi laborum
-                    eaque! At tempora aut totam dolorum sit maiores quis cumque aspernatur sapiente! Aliquam, quos
-                    optio. Atque possimus velit pariatur illo magni quaerat, cum exercitationem ipsum id rerum quas enim
-                    voluptates necessitatibus accusamus quibusdam repellendus voluptate sint repellat veritatis placeat
-                    et debitis? Recusandae repudiandae vitae tempora ad tempore cum excepturi officiis eum modi,
-                    nesciunt quidem quaerat, sit dolore voluptatum iste, omnis doloremque hic accusantium exercitationem
-                    assumenda impedit? Harum, alias animi? Est aliquid veniam eius sed incidunt dolorem labore! Officiis
-                    magnam vel vitae odit eos accusamus nemo dolores, iste obcaecati harum quae, inventore ullam
-                    dignissimos quos quis eius aperiam exercitationem illo necessitatibus voluptas, ea repellendus quo.
-                    Iusto, rerum consequatur. Porro, sit! Accusamus magni nostrum assumenda nesciunt, quae maxime vero
-                    ipsum odio harum veritatis illum quis amet rerum tempora dicta nihil? Corporis tenetur corrupti,
-                    nesciunt, veritatis sapiente adipisci nulla praesentium hic amet doloribus, quam maxime? Nobis
-                    necessitatibus illo libero quam vel molestiae amet reiciendis nam fugiat perspiciatis voluptas
-                    beatae est voluptates, eligendi cumque inventore sint! Obcaecati eligendi ratione eius nemo
-                    voluptate optio repellendus? Necessitatibus, consectetur quaerat? Inventore magni dignissimos alias
-                    iusto ipsum exercitationem ad provident possimus modi ipsam obcaecati officiis nam vel maiores
-                    voluptate quas cupiditate, consequuntur aperiam recusandae aliquam animi. Dignissimos maiores
-                    molestiae repellendus! Reprehenderit, distinctio ipsum pariatur quae quos veniam facere explicabo ea
-                    inventore illum, magnam, alias numquam neque.</p>
+        </div>
+        <div class="cards">
+            <section class="card about">
+                <div class="icon">
+                    <p class="cardTitle">Assessoria Online</p>
+                </div>
+                <p class="cardDiscription">Tudo montado em até 24 horas Cálculo dos macros Dúvidas diárias respondidas em até 12hs (online) Troca de treino semanal</p>
+                <h6 class="cardPrice">R$ 100,00</h6>
+                <button>QUERO SER ALUNO</button>
+            </section>
+            <section class="card about">
+                <div class="icon">
+                    <p class="cardTitle">Assessoria Online</p>
+                </div>
+                <p class="cardDiscription">Tudo montado em até 24 horas Cálculo dos macros Dúvidas diárias respondidas em até 12hs (online) Troca de treino semanal</p>
+                <h6 class="cardPrice">R$ 100,00</h6>
+                <button>QUERO SER ALUNO</button>
+            </section>
+            <section class="card about">
+                <div class="icon">
+                    <p class="cardTitle">Assessoria Online</p>
+                </div>
+                <p class="cardDiscription">Tudo montado em até 24 horas Cálculo dos macros Dúvidas diárias respondidas em até 12hs (online) Troca de treino semanal</p>
+                <h6 class="cardPrice">R$ 100,00</h6>
+                <button>QUERO SER ALUNO</button>
+            </section>
+        </div>
+        <footer>
+            <div><h1>LOGO</h1></div> 
+            <div class="linksFooter">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PRODUTOS</a></li>
+                </ul>
             </div>
-            <div class="planos">
-                <div class="plan">
-                    <div class="inner">
-                        <span class="pricing">
-                            <span>
-                                $49 <small>/ m</small>
-                            </span>
-                        </span>
-                        <p class="title">Professional</p>
-                        <p class="info">This plan is for those who have a team already and running a large business.</p>
-                        <ul class="features">
-                            <li>
-                                <span class="icon">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path fill="currentColor"
-                                            d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                        </path>
-                                    </svg>
-                                </span>
-                                <span><strong>20</strong> team members</span>
-                            </li>
-                            <li>
-                                <span class="icon">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path fill="currentColor"
-                                            d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                        </path>
-                                    </svg>
-                                </span>
-                                <span>Plan <strong>team meetings</strong></span>
-                            </li>
-                            <li>
-                                <span class="icon">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path fill="currentColor"
-                                            d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                        </path>
-                                    </svg>
-                                </span>
-                                <span>File sharing</span>
-                            </li>
-                        </ul>
-                        <div class="action">
-                            <a class="button" href="#">
-                                Choose plan
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="plan">
-                    <div class="inner">
-                        <span class="pricing">
-                            <span>
-                                $49 <small>/ m</small>
-                            </span>
-                        </span>
-                        <p class="title">Professional</p>
-                        <p class="info">This plan is for those who have a team already and running a large business.</p>
-                        <ul class="features">
-                            <li>
-                                <span class="icon">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path fill="currentColor"
-                                            d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                        </path>
-                                    </svg>
-                                </span>
-                                <span><strong>20</strong> team members</span>
-                            </li>
-                            <li>
-                                <span class="icon">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path fill="currentColor"
-                                            d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                        </path>
-                                    </svg>
-                                </span>
-                                <span>Plan <strong>team meetings</strong></span>
-                            </li>
-                            <li>
-                                <span class="icon">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path fill="currentColor"
-                                            d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                        </path>
-                                    </svg>
-                                </span>
-                                <span>File sharing</span>
-                            </li>
-                        </ul>
-                        <div class="action">
-                            <a class="button" href="#">
-                                Choose plan
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="plan">
-                    <div class="inner">
-                        <span class="pricing">
-                            <span>
-                                $49 <small>/ m</small>
-                            </span>
-                        </span>
-                        <p class="title">Professional</p>
-                        <p class="info">This plan is for those who have a team already and running a large business.</p>
-                        <ul class="features">
-                            <li>
-                                <span class="icon">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path fill="currentColor"
-                                            d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                        </path>
-                                    </svg>
-                                </span>
-                                <span><strong>20</strong> team members</span>
-                            </li>
-                            <li>
-                                <span class="icon">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path fill="currentColor"
-                                            d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                        </path>
-                                    </svg>
-                                </span>
-                                <span>Plan <strong>team meetings</strong></span>
-                            </li>
-                            <li>
-                                <span class="icon">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path fill="currentColor"
-                                            d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                        </path>
-                                    </svg>
-                                </span>
-                                <span>File sharing</span>
-                            </li>
-                        </ul>
-                        <div class="action">
-                            <a class="button" href="#">
-                                Choose plan
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="plan">
-                    <div class="inner">
-                        <span class="pricing">
-                            <span>
-                                $49 <small>/ m</small>
-                            </span>
-                        </span>
-                        <p class="title">Professional</p>
-                        <p class="info">This plan is for those who have a team already and running a large business.</p>
-                        <ul class="features">
-                            <li>
-                                <span class="icon">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path fill="currentColor"
-                                            d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                        </path>
-                                    </svg>
-                                </span>
-                                <span><strong>20</strong> team members</span>
-                            </li>
-                            <li>
-                                <span class="icon">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path fill="currentColor"
-                                            d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                        </path>
-                                    </svg>
-                                </span>
-                                <span>Plan <strong>team meetings</strong></span>
-                            </li>
-                            <li>
-                                <span class="icon">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path fill="currentColor"
-                                            d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                        </path>
-                                    </svg>
-                                </span>
-                                <span>File sharing</span>
-                            </li>
-                        </ul>
-                        <div class="action">
-                            <a class="button" href="#">
-                                Choose plan
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="contatosFooter">
+                <ul>
+                    <li><a href="https://www.whatsapp.com/">WHATSAPP</a></li>
+                    <li><a href="#">E-MAIL</a></li>
+                </ul>
             </div>
-    </main>
-    <footer>
-        <h5>LOGO</h5>
-        <p>Informações</p>
-        <p>Redes Sociais</p>
-    </footer>
+        </footer>
+<script src="index.js"></script>
 </body>
 
 </html>
